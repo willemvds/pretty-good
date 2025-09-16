@@ -1,4 +1,4 @@
 # Pretty Good
 
-Good Watching - https://vds.io/good-watching.html
+Good Watching - https://vds.io/good/watching
 
