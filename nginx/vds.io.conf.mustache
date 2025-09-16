@@ -1,0 +1,17 @@
+location ~ ^/good/watching$ {
+	return 302 /good/watching.v2.html;
+}
+
+location ~ ^/good/(.*)\.(html)$ {
+	root {{{ rootPath }}};
+	index watching.v2.html;
+
+	rewrite ^/good/(.*)$ /$1 break;
+
+	add_header Cache-Control "public, max-age=31536000, immutable";
+	sendfile on;
+	sendfile_max_chunk 512k;
+	tcp_nopush on;
+	tcp_nodelay on;
+}
+
