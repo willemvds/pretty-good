@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pretty Good Watching</title>
+    <style>
+      :root {
+        --bg_h: #1d2021;
+        --bg: #282828;
+        --bg_s: #32302f;
+        --bg1: #3c3836;
+        --bg2: #504945;
+        --bg3: #665c54;
+        --bg4: #7c6f64;
+
+        --fg: #fbf1c7;
+        --fg1: #ebdbb2;
+        --fg2: #d5c4a1;
+        --fg3: #bdae93;
+        --fg4: #a89984;
+
+        --red: #fb4934;
+        --green: #b8bb26;
+        --yellow: #fabd2f;
+        --blue: #83a598;
+        --purple: #d3869b;
+        --aqua: #8ec07c;
+        --gray: #928374;
+        --orange: #fe8019;
+
+        --red-dim: #cc2412;
+        --green-dim: #98971a;
+        --yellow-dim: #d79921;
+        --blue-dim: #458588;
+        --purple-dim: #b16286;
+        --aqua-dim: #689d6a;
+        --gray-dim: #a89984;
+        --orange-dim: #d65d0e;
+      }
+
+      * {
+        font-family: mono;
+        font-size: 14pt;
+      }
+
+      body {
+        background-color: var(--bg1);
+      }
+
+      div.top {
+        text-align: center;
+      }
+
+      section#main {
+        display: grid;
+        grid-template-columns: 1fr minmax(800px, 1200px) 1fr;
+      }
+
+      h1 {
+        margin-block: 0.67em;
+        font-size: 3em;
+      }
+
+      h2 {
+        margin: 0;
+        padding: 0;
+      }
+
+      h3 {
+        margin: 0;
+        padding: 0;
+        color: var(--aqua-dim);
+      }
+
+      a {
+        font-size: 1.6em;
+        color: var(--green);
+        text-decoration: none;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+
+      div.item {
+        padding: 20pt;
+        margin: 10pt 0 10pt 0;
+        background-color: var(--bg);
+        color: var(--fg1);
+      }
+    </style>
+  </head>
+  <body>
+    <section id="main">
+      <div></div>
+      <div>
+        <div class="top">
+          <h1>The Bigtime Shit</h1>
+        </div>
+        <div class="item">
+          <h2>
+            <a href="https://vimeo.com/86396740">Jackstones: The Journey to Mastery</a>
+          </h2>
+          <h3>Dan North</h3>
+          <p>This is the first item on the list intentionally. If these concepts do not resonate with you, it is very unlikely that you will find value in the rest of this list.</p>
+        </div>
+        <div class="item">
+          <h2>
+            <a href="https://www.youtube.com/watch?v=TdajK_SXwoc">The Most Important Design Guideline</a>
+          </h2>
+          <h3>Scott Myers</h3>
+          <p>It doesn't matter what I am working on, Scott's words ring inside my brain like a tuning fork.</p>
+          <p>"Make Interfaces Easy to Use Correctly and Hard to Use Incorrectly."</p>
+        </div>
+        <div class="item">
+          <h2>
+            <a href="https://www.youtube.com/watch?v=LKtk3HCgTa8">Simple Made Easy</a>
+          </h2>
+          <h3>Rich Hickey</h3>
+          <p>I personally consider this to be the most impactful talk for building reliable and maintainable software that lives and evolves over many years. Foundational concepts brought forward with expert articulation.</p>
+          <p>Simplicity is hard and time-consuming work. Nothing I've encountered in my career has had a higher return on investment consistently.</p>
+        </div>
+        <div class="item">
+          <h2>
+            <a href="https://www.youtube.com/watch?v=czzAVuVz7u4">Why Can't We Make Simple Software?</a>
+          </h2>
+          <h3>Peter van Hardenberg</h3>
+          <p>A recent addition to 'good watching' that is a perfect companion piece and continuation of 'Simple Made Easy'.</p>
+          <p></p>
+        </div>
+        <div class="item">
+          <h2>
+            <a href="https://www.youtube.com/watch?v=8bZh5LMaSmE">All the little things</a>
+          </h2>
+          <h3>Sandi Metz</h3>
+          <p>I have very little interest in Ruby, Object Oriented Programming or Cyclomatic Complexity and still I always find myself recommending this talk to other software developers at one point or another. The principles demonstrated here are invaluable in software development.</p>
+        </div>
+        <div class="item">
+          <h2>
+            <a href="https://www.youtube.com/watch?v=-6BsiVyC1kM">The Value of Values</a>
+          </h2>
+          <h3>Rich Hickey</h3>
+          <p>The industry is surprisingly slow at moving forward on this topic. Once you've worked on and with systems that embrace the power of values, the thought of going back is harrowing.</p>
+        </div>
+        <div class="item">
+          <h2>
+            <a href="https://www.destroyallsoftware.com/talks/boundaries">Boundaries</a>
+          </h2>
+          <h3>Gary Bernhardt</h3>
+          <p>As is the case with many other items on this list, the value is not with the concrete examples but rather the way of thinking. Merely the act of thinking about boundaries, isolation and the interfaces between them will likely lead you down a path of building more re-usable and composable software with noticeably lower coupling.</p>
+        </div>
+        <div class="item">
+          <h2>
+            <a href="https://www.youtube.com/watch?v=_ahvzDzKdB0">Growing a Language</a>
+          </h2>
+          <h3>Guy Steele</h3>
+          <p>Telling the computer what to do is easy. Making those same lines of code communicate context and system design to the next person that touches it is much more challenging indeed.</p>
+        </div>
+        <div class="item">
+          <h2>
+            <a href="https://www.youtube.com/watch?v=29MAL8pJImQ">Nothing is Something</a>
+          </h2>
+          <h3>Sandi Metz</h3>
+          <p>I've had the quote "Find the Role" from this talk written on the whiteboard in my office for years at this point. I love simple things like this that give great mileage.</p>
+        </div>
+        <div class="item">
+          <h2>
+            <a href="https://www.youtube.com/watch?v=w3WYdYyjek4">TigerStyle! (Or How To Design Safer Systems in Less Time)</a>
+          </h2>
+          <h3>Joran Dirk Greef</h3>
+          <p>The technical details in this video are excellent and warrant watching on its own.</p>
+          <p>On top of that, much like 'Simple Made Easy' it gave me the words and glue to put into focus concepts that have been bouncing inside my brain for far too many years.</p>
+        </div>
+        <div class="item">
+          <h2>
+            <a href="https://vimeo.com/131196782">Enterprise Tic Tac Toe (Type Based Design)</a>
+          </h2>
+          <h3>Scott Wlaschin</h3>
+          <p>Regardless of the language and ecosystem you find yourself in, having exposure to more paradigms and ways of thinking helps you solve problems in a way that is a good fit for the use case instead of blindly adopting some conventions set forth by someone (**cough web frameworks**) solving a completely different problem with only superficial similarities to your own.</p>
+          <p>"Life's barely long enough to get good at one thing. So be careful what you get good at."</p>
+        </div>
+      </div>
+      <div></div>
+      <template id="item">
+        <div class="item">
+          <h2><a href=""></a></h2>
+          <h3></h3>
+          <p></p>
+        </div>
+      </template>
+    </section>
+  </body>
+</html>
