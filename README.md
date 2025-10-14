@@ -3,8 +3,8 @@
 Good Watching - https://vds.io/good/watching
 
 ### Roadmap
-☑ Watching   
-☐ Blurbs   
-☐ Styling   
-☐ Reading   
+- [x] Watching   
+- [x] Blurbs   
+- [x] Styling   
+- [ ] Reading   
 
