@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pretty Good Reading</title>
+    <style>
+      :root {
+        --bg_h: #1d2021;
+        --bg: #282828;
+        --bg_s: #32302f;
+        --bg1: #3c3836;
+        --bg2: #504945;
+        --bg3: #665c54;
+        --bg4: #7c6f64;
+
+        --fg: #fbf1c7;
+        --fg1: #ebdbb2;
+        --fg2: #d5c4a1;
+        --fg3: #bdae93;
+        --fg4: #a89984;
+
+        --red: #fb4934;
+        --green: #b8bb26;
+        --yellow: #fabd2f;
+        --blue: #83a598;
+        --purple: #d3869b;
+        --aqua: #8ec07c;
+        --gray: #928374;
+        --orange: #fe8019;
+
+        --red-dim: #cc2412;
+        --green-dim: #98971a;
+        --yellow-dim: #d79921;
+        --blue-dim: #458588;
+        --purple-dim: #b16286;
+        --aqua-dim: #689d6a;
+        --gray-dim: #a89984;
+        --orange-dim: #d65d0e;
+      }
+
+      * {
+        font-family: mono;
+        font-size: 14pt;
+      }
+
+      body {
+        background-color: var(--bg1);
+      }
+
+      div.top {
+        text-align: center;
+      }
+
+      section#main {
+        display: grid;
+        grid-template-columns: 1fr minmax(800px, 1200px) 1fr;
+      }
+
+      h1 {
+        margin-block: 0.67em;
+        font-size: 3em;
+      }
+
+      h2 {
+        margin: 0;
+        padding: 0;
+      }
+
+      h3 {
+        margin: 0;
+        padding: 0;
+        color: var(--aqua-dim);
+      }
+
+      a {
+        font-size: 1.6em;
+        color: var(--green);
+        text-decoration: none;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+
+      div.item {
+        padding: 20pt;
+        margin: 10pt 0 10pt 0;
+        background-color: var(--bg);
+        color: var(--fg1);
+      }
+    </style>
+  </head>
+  <body>
+    <section id="main">
+      <div></div>
+      <div>
+        <div class="top">
+          <h1>Good Reading</h1>
+        </div>
+        <div class="item">
+          <h2><a href="https://kristoff.it/blog/asynchrony-is-not-concurrency/">Asynchrony is not Concurrency</a></h2>
+          <h3>Loris Cro</h3>
+          <p>This article is focused on the Zig language and the (very sensible) reasons for the design of their IO interface. Even if you never use Zig, the breakdown and terminology for working with execution models is critical when developing software for modern hardware.</p>
+        </div>
+        <div class="item">
+          <h2><a href="https://gafferongames.com/post/fix_your_timestep/">Fix Your Timestep!</a></h2>
+          <h3>Glenn Fiedler</h3>
+          <p>Provides a very solid foundation for building the main game loop. Even if you end up using a library, framework or engine for your projects, working through this skeleton at least once is very valuable learning.</p>
+        </div>
+        <div class="item">
+          <h2><a href="https://tailscale.com/blog/how-nat-traversal-works">How NAT traversal works</a></h2>
+          <h3>David Anderson (Tailscale)</h3>
+          <p>Great content and exceptional presentation. Muchos Excelente.</p>
+        </div>
+      </div>
+      <div></div>
+      <template id="item">
+        <div class="item">
+          <h2><a href=""></a></h2>
+          <h3></h3>
+          <p></p>
+        </div>
+      </template>
+    </section>
+  </body>
+</html>

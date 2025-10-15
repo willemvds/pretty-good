@@ -1,4 +1,5 @@
 {
 	"rootPath": "/var/www/html/vds.io/good",
-	"version": "v?"
+	"readingVersion": "v?",
+	"watchingVersion": "v?"
 }

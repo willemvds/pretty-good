@@ -1,10 +1,13 @@
+location ~ ^/good/reading$ {
+	return 302 /good/reading.{{{ readingVersion }}}.html;
+}
+
 location ~ ^/good/watching$ {
-	return 302 /good/watching.{{{ version }}}.html;
+	return 302 /good/watching.{{{ watchingVersion }}}.html;
 }
 
 location ~ ^/good/(.*)\.(html)$ {
 	root {{{ rootPath }}};
-	index watching.{{{ version }}}.html;
 
 	rewrite ^/good/(.*)$ /$1 break;
 
