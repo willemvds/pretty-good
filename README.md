@@ -1,7 +1,7 @@
 # Pretty Good
 
-Good Reading - httpsL//vds.io/good/reading
-Good Watching - https://vds.io/good/watching
+Good Reading - https://vds.io/good/reading   
+Good Watching - https://vds.io/good/watching   
 
 ### Roadmap
 - [x] Watching   
